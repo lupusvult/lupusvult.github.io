@@ -123,3 +123,22 @@ th {
     margin: 0;
     max-width: 80%
 }
+
+.site-footer {
+    text-align: center;
+}
+
+.footer-text {
+    text-transform: uppercase;
+    color: white;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.footer-note {
+    color: #bbb;
+    font-style: italic;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin: 4px 0 20px 0;
+}
