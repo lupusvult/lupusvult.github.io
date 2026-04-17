@@ -26,14 +26,12 @@ body {
     max-width: 700px;
     margin: 40px auto 40px auto;
     line-height: 1.6;
-    font-size: 1rem;
 }
 
 .table-wrapper {
     width: 100%;
     overflow-x: auto;
     margin-bottom: 40px;
-    border: 1px solid #444;
 }
 
 table {
@@ -44,7 +42,7 @@ table {
 
 th, td {
     border: 1px solid #444;
-    padding: 10px;
+    padding: 8px;
     text-align: center;
 }
 
@@ -59,8 +57,7 @@ th {
 }
 
 .table-title {
-    font-size: 1.2em;
-    padding: 15px;
+    padding: 8px;
     letter-spacing: 2px;
     background-color: #333;
 }
@@ -87,7 +84,6 @@ th {
 .nothing-description {
     color: #bbb;
     font-style: italic;
-    font-size: 1rem;
     margin: 0;
     max-width: 80%
 }
