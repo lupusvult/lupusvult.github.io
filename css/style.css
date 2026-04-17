@@ -28,6 +28,28 @@ body {
     line-height: 1.6;
 }
 
+.table-of-contents {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.table-of-contents a {
+    color: #ffc32b;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.table-of-contents a:hover {
+    text-decoration: none;
+}
+
+.table-of-contents span {
+    color: #bbb;
+    padding: 0 10px;
+    user-select: none;
+}
+
 .table-wrapper {
     width: 100%;
     overflow-x: auto;
