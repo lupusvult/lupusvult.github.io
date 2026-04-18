@@ -7,7 +7,17 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px
+    padding: 20px;
+}
+
+.splash-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    gap: 40px;
 }
 
 .page-title {
@@ -26,6 +36,22 @@ body {
     max-width: 700px;
     margin: 40px auto 40px auto;
     line-height: 1.6;
+}
+
+.splash-text {
+    text-align: center;
+    color: #ffc32b;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+}
+
+.splash-description {
+    color: #bbb;
+    font-style: italic;
+    margin: 0;
+    max-width: 80%
 }
 
 .table-of-contents {
@@ -100,32 +126,6 @@ th {
 
 tbody tr:hover {
     background-color: #111111;
-}
-
-.centered-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    gap: 40px;
-}
-
-.nothing-text {
-    text-align: center;
-    color: #ffc32b;
-    font-size: 4rem;
-    text-transform: uppercase;
-    margin: 0;
-    line-height: 1;
-}
-
-.nothing-description {
-    color: #bbb;
-    font-style: italic;
-    margin: 0;
-    max-width: 80%
 }
 
 .site-footer {
