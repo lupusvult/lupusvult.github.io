@@ -147,10 +147,9 @@ tbody tr:hover {
     margin: 4px 0 20px 0;
 }
 
-.back-to-top {
+.floating-btn {
     position: fixed;
     bottom: 40px;
-    right: 40px;
     width: 40px;
     height: 40px;
     background-color: #000;
@@ -160,14 +159,27 @@ tbody tr:hover {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 1.2rem;
     z-index: 1000;
     transition: all 0.2s ease;
 }
-
-.back-to-top:hover {
+.floating-btn:hover {
     border-color: #ffc32b;
     color: white;
     background-color: #000;
     transform: translateY(-5px);
+}
+
+.back-home {
+    left: 40px;
+    font-size: 1.2rem;
+}
+
+.back-top {
+    right: 40px;
+}
+
+@media (max-width: 600px) {
+    .floating-btn {
+        display: none;
+    }
 }
