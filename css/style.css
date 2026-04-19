@@ -243,5 +243,5 @@ tbody tr:hover {
 * {
     scrollbar-width: thin;
     scrollbar-color: #333333 #000000;
-    cursor: crosshair !important;
+    cursor: url('../img/cursor.png') 6 6, crosshair !important;
 }
