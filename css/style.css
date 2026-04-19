@@ -133,6 +133,16 @@ th, td {
     text-align: center;
 }
 
+@media (width: 744px) {
+    th, td {
+        font-size: 0.7rem;
+    }
+
+    table {
+        min-width: 704px;
+    }
+}
+
 td:first-child {
     text-align: left;
     font-weight: bold;
