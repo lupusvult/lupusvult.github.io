@@ -115,6 +115,16 @@ body {
     100% { transform: rotate(0deg); }
 }
 
+@media (max-width: 400px) {
+    .table-of-contents a {
+        font-size: 0.9rem;
+    }
+    .table-of-contents span {
+        padding: 0 6px;
+        font-size: 0.9rem;
+    }
+}
+
 .table-wrapper {
     width: 100%;
     overflow-x: auto;
