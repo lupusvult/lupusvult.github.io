@@ -64,6 +64,19 @@ body {
     max-width: 80%
 }
 
+.splash-logo {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .table-of-contents {
     display: flex;
     justify-content: center;
