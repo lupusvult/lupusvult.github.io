@@ -91,6 +91,10 @@ body {
     width: 100%;
 }
 
+.container > .table-of-contents {
+    margin-bottom: 40px;
+}
+
 .table-of-contents a {
     display: inline-block;
     transition: color 0.2s;
@@ -184,6 +188,7 @@ th {
     font-size: 1.2rem;
     color: #ffc32b;
     background-color: #000000;
+    scroll-margin-top: 38px;
 }
 
 tbody tr:hover {
