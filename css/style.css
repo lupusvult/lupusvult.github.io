@@ -64,6 +64,13 @@ body {
     max-width: 80%;
 }
 
+.description-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
 .splash-logo {
     width: 160px;
     height: 160px;
@@ -101,6 +108,13 @@ body {
     color: #bbb;
     padding: 0 10px;
     user-select: none;
+}
+
+.nav-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
 .splash-container .table-of-contents {
