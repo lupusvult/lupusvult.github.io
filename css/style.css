@@ -347,3 +347,25 @@ tbody tr:hover {
 .top-links {
     gap: 0; 
 }
+
+del {
+    text-decoration: none;
+    position: relative;
+    color: #333333;
+    display: inline-block;
+}
+
+del::before {
+    content: "";
+    position: absolute;
+    top: 42%; 
+    left: -1px;
+    width: calc(100% + 2px);
+    height: 2px;
+    background: #ffc32b;
+    transition: background 0.2s;
+}
+
+a:hover del::before {
+    background: white;
+}
