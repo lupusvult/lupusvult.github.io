@@ -269,3 +269,57 @@ tbody tr:hover {
     scrollbar-color: #333333 #000000;
     cursor: url('../img/cursor.png') 6 6, crosshair !important;
 }
+
+.menu-overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+}
+
+.menu-overlay:target {
+    display: flex;
+}
+
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.top-links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bottom-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-links a, 
+.bottom-links a {
+    color: #ffc32b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.top-links a:hover, 
+.bottom-links a:hover {
+    color: white;
+    animation: menu-shake 0.4s ease-in-out infinite;
+}
