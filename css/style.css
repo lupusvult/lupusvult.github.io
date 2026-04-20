@@ -358,7 +358,7 @@ del {
 del::before {
     content: "";
     position: absolute;
-    top: 42%; 
+    top: 46%; 
     left: -1px;
     width: calc(100% + 2px);
     height: 2px;
