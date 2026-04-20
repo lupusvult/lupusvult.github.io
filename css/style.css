@@ -74,7 +74,7 @@ body {
 .splash-logo {
     width: 160px;
     height: 160px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     background-image: url('../img/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -87,7 +87,8 @@ body {
 .table-of-contents {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+    width: 100%;
 }
 
 .table-of-contents a {
@@ -111,10 +112,10 @@ body {
 }
 
 .nav-group {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    align-items: stretch;
     gap: 20px;
-    align-items: center;
 }
 
 .splash-container .table-of-contents {
@@ -368,4 +369,20 @@ del::before {
 
 a:hover del::before {
     background: white;
+}
+
+.more-stuff-btn {
+    border: 1px solid #ffc32b;
+    padding: 8px 0;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+    margin-bottom: 40px;
+}
+
+.more-stuff-btn:hover {
+    background-color: #ffc32b;
+    color: black !important;
+    animation: menu-shake 0.4s ease-in-out infinite !important;
 }
