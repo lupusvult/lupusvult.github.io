@@ -174,7 +174,6 @@ th, td {
 
 td:first-child {
     text-align: left;
-    font-weight: bold;
 }
 
 th {
@@ -193,6 +192,36 @@ th {
 
 tbody tr:hover {
     background-color: #111111;
+}
+
+.software-table th:nth-child(2), 
+.software-table td:nth-child(2) {
+    width: 5%;
+    min-width: 40px;
+    text-align: center;
+}
+
+.software-table td:first-child {
+    width: auto;
+}
+
+.software-table td:first-child a {
+    color: white;
+    text-decoration: none;
+}
+
+.software-table td:first-child a:hover {
+    color: #ffc32b;
+}
+
+.oss-yes {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.oss-no {
+    color: #e74c3c;
+    font-weight: bold;
 }
 
 .site-footer {
