@@ -179,12 +179,14 @@ td:first-child {
 th {
     background-color: #111111;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .table-title {
     padding: 8px;
     letter-spacing: 2px;
     font-size: 1.2rem;
+    text-transform: uppercase;
     color: #ffc32b;
     background-color: #000000;
     scroll-margin-top: 38px;
