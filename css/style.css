@@ -198,6 +198,13 @@ tbody tr:hover {
 
 .software-table th:nth-child(2), 
 .software-table td:nth-child(2) {
+    width: 15%;
+    min-width: 120px;
+    text-align: center;
+}
+
+.software-table th:nth-child(3), 
+.software-table td:nth-child(3) {
     width: 5%;
     min-width: 40px;
     text-align: center;
