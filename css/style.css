@@ -354,6 +354,13 @@ tbody tr:hover {
     align-items: center;
 }
 
+.bottom-links .more-stuff-btn {
+    width: auto;
+    min-width: 160px;
+    padding: 8px 40px;
+    margin-bottom: 0;
+}
+
 .top-links a, 
 .bottom-links a {
     color: #ffc32b;
