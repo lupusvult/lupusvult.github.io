@@ -142,7 +142,7 @@ body {
     100% { transform: rotate(0deg); }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
     .table-of-contents a {
         font-size: 0.9rem;
     }
