@@ -34,9 +34,16 @@ body {
     text-align: center;
     color: #ffc32b;
     font-size: 1.8rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
     text-transform: uppercase;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0 20px 0;
 }
 
 .page-description {
@@ -44,8 +51,9 @@ body {
     font-style: italic;
     text-align: center;
     max-width: 700px;
-    margin: 20px auto 40px auto;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 .splash-text {
@@ -92,7 +100,7 @@ body {
 }
 
 .container > .table-of-contents {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .table-of-contents a {
@@ -147,7 +155,7 @@ body {
 .table-wrapper {
     width: 100%;
     overflow-x: auto;
-    margin-bottom: 40px;
+    margin: 20px 0 20px 0;
 }
 
 table {
@@ -235,6 +243,10 @@ tbody tr:hover {
 
 .site-footer {
     margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 4px;
     text-align: center;
 }
 
@@ -242,7 +254,7 @@ tbody tr:hover {
     text-transform: uppercase;
     color: #fff;
     font-size: 0.9rem;
-    margin: 0;
+    margin: 20px 0 0 0;
 }
 
 .footer-note {
@@ -250,7 +262,7 @@ tbody tr:hover {
     font-style: italic;
     font-size: 0.7rem;
     letter-spacing: 1px;
-    margin: 4px 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 .floating-btn {
@@ -312,6 +324,16 @@ tbody tr:hover {
     scrollbar-width: thin;
     scrollbar-color: #333333 #000000;
     cursor: url('../img/cursor.png') 6 6, crosshair !important;
+}
+
+::selection {
+    background-color: #ffc32b;
+    color: #000000;
+}
+
+::-moz-selection {
+    background-color: #ffc32b;
+    color: #000000;
 }
 
 .menu-overlay {
@@ -435,4 +457,37 @@ a:hover del::before {
     background-color: #ffc32b;
     color: #000 !important;
     animation: menu-shake 0.4s ease-in-out infinite !important;
+}
+
+.qr-payment-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    gap: 20px;
+}
+
+.monero-qr-link {
+    display: block;
+    width: 246px;
+    height: 246px;
+    background-image: url("../img/monero.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    shape-rendering: crispEdges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.monero-address {
+    font-size: 0.8rem;
+    word-break: break-all;
+    text-align: center;
+    max-width: 246px;
+    line-height: 1.4;
+    user-select: all;
+    -webkit-user-select: all;
+    -moz-user-select: all;
 }
