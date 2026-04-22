@@ -20,22 +20,24 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="page-title">Vault</h1>
+        <header>
+            <h1 class="page-title">Vault</h1>
 
-        <div class="description-container">
-            <p class="page-description">
-                This page exists so you can cross-check the receiving address I've sent you, ensuring it matches and that you're actually communicating with me rather than an impostor.
-            </p>
+            <div class="description-container">
+                <p class="page-description">
+                    This page exists so you can cross-check the receiving address I've sent you, ensuring it matches and that you're actually communicating with me rather than an impostor.
+                </p>
 
-            <p class="page-description">
-                QR code and address below are for Monero (XMR) only. Sending other assets may result in permanent loss of funds.
-            </p>
-        </div>
+                <p class="page-description">
+                    QR code and address below are for Monero (XMR) only. Sending other assets may result in permanent loss of funds.
+                </p>
+            </div>
+        </header>
 
-        <div class="qr-payment-area">
+        <main class="monero-vault">
             <a href="monero:459w34LKUDjAtuNCejujo7LE2i3BWpRrTHaKSiQ8f39Z5rhRGvA3zwKVTfskWwxmD9WSG88ZvWpXLCFtPiCYQe2n5ySWkz2" class="monero-qr-link"></a>
             <div class="monero-address">459w34LKUDjAtuNCejujo7LE2i3BWpRrTHaKSiQ8f39Z5rhRGvA3zwKVTfskWwxmD9WSG88ZvWpXLCFtPiCYQe2n5ySWkz2</div>
-        </div>
+        </main>
 
         <footer class="site-footer">
             <p class="footer-text">© 2026 Lupus Vult</p>
@@ -44,7 +46,8 @@
         </footer>
     </div>
 
-    <a href="/" class="floating-btn back-home" aria-label="Back to home">◀</a>
-
+    <nav class="floating-nav">
+        <a href="/" class="floating-btn back-home" aria-label="Back to home">◀</a>
+    </nav>
 </body>
 </html>
