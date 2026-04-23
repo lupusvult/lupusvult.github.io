@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     scrollbar-width: thin;
     scrollbar-color: #333 #000;
     cursor: url('../img/cursor.png') 6 6, crosshair !important;
 }
 
 ::-webkit-scrollbar {
-    width: 14px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -18,11 +19,7 @@
 ::-webkit-scrollbar-thumb {
     background-color: #333;
     border-radius: 10px;
-    border: 4px solid #000;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: #333;
+    border: 2px solid #000;
 }
 
 ::selection {
@@ -135,12 +132,10 @@ main {
     display: inline-block;
     transition: color 0.2s;
     color: #ffc32b;
-    text-decoration: none;
     text-transform: uppercase;
 }
 
 .table-of-contents a:hover {
-    text-decoration: none;
     color: #fff;
     animation: menu-shake 0.4s ease-in-out infinite;
 }
@@ -250,7 +245,6 @@ tbody tr:hover {
 
 .software-table td:first-child a {
     color: #fff;
-    text-decoration: none;
 }
 
 .software-table td:first-child a:hover {
@@ -384,7 +378,6 @@ tbody tr:hover {
 .top-links a, 
 .bottom-links a {
     color: #ffc32b;
-    text-decoration: none;
     text-transform: uppercase;
     font-size: 1.2rem;
 }
@@ -415,7 +408,6 @@ tbody tr:hover {
 }
 
 del {
-    text-decoration: none;
     position: relative;
     color: #333;
     display: inline-block;
@@ -480,4 +472,17 @@ a:hover del::before {
     user-select: all;
     -webkit-user-select: all;
     -moz-user-select: all;
+}
+
+a:focus-visible:not(.floating-btn), 
+.hatch-btn:focus-visible {
+    outline: 4px solid #ffc32b;
+    background-color: #ffc32b;
+    color: #000 !important;
+}
+
+.floating-btn:focus-visible {
+    outline: 2px solid #e74c3c;
+    outline-offset: 4px;
+    background-color: transparent;
 }
