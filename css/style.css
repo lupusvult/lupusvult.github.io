@@ -296,28 +296,39 @@ tbody tr:hover {
     width: 40px;
     height: 40px;
     background-color: #000;
-    color: #ffc32b;
     border: 1px solid #333;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
     z-index: 1000;
     transition: all 0.2s ease;
-}
-.floating-btn:hover {
-    border-color: #ffc32b;
-    color: #fff;
-    background-color: #000;
-    transform: translateY(-5px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
 }
 
 .back-home {
     left: 40px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M7 1L3 5l4 4z' fill='%23ffc32b'/%3E%3C/svg%3E");
+}
+
+.back-home:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M7 1L3 5l4 4z' fill='%23ffffff'/%3E%3C/svg%3E");
 }
 
 .back-top {
     right: 40px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M1 7l4-4 4 4z' fill='%23ffc32b'/%3E%3C/svg%3E");
+}
+
+.back-top:hover {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M1 7l4-4 4 4z' fill='%23ffffff'/%3E%3C/svg%3E");
+}
+
+.floating-btn:hover {
+    border-color: #ffc32b;
+    background-color: #000;
+    transform: translateY(-5px);
 }
 
 @media (max-width: 744px) {
