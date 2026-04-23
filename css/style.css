@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scrollbar-width: thin;
-    scrollbar-color: #333333 #000000;
+    scrollbar-color: #333 #000;
     cursor: url('../img/cursor.png') 6 6, crosshair !important;
 }
 
@@ -12,22 +12,22 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #000000;
+    background: #000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #333333;
+    background-color: #333;
     border-radius: 10px;
-    border: 4px solid #000000;
+    border: 4px solid #000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #444444;
+    background-color: #444;
 }
 
 ::selection {
     background-color: #ffc32b;
-    color: #000000;
+    color: #000;
 }
 
 html {
@@ -66,7 +66,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
     gap: 40px;
 }
 
@@ -191,7 +190,7 @@ table {
 }
 
 th, td {
-    border: 1px solid #444;
+    border: 1px solid #333;
     padding: 8px;
     text-align: center;
     white-space: nowrap;
@@ -199,7 +198,7 @@ th, td {
 
 @media (width: 744px) {
     th, td {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     table {
@@ -212,7 +211,7 @@ td:first-child {
 }
 
 th {
-    background-color: #111111;
+    background-color: #111;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -223,12 +222,12 @@ th {
     font-size: 1.2rem;
     text-transform: uppercase;
     color: #ffc32b;
-    background-color: #000000;
+    background-color: #000;
     scroll-margin-top: 38px;
 }
 
 tbody tr:hover {
-    background-color: #111111;
+    background-color: #111;
 }
 
 .software-table th:nth-child(2), 
@@ -270,7 +269,7 @@ tbody tr:hover {
 
 .site-footer {
     margin-top: auto;
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -308,7 +307,7 @@ tbody tr:hover {
 }
 .floating-btn:hover {
     border-color: #ffc32b;
-    color: white;
+    color: #fff;
     background-color: #000;
     transform: translateY(-5px);
 }
@@ -358,7 +357,6 @@ tbody tr:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 
 .bottom-links {
@@ -383,7 +381,7 @@ tbody tr:hover {
 
 .top-links a:hover, 
 .bottom-links a:hover {
-    color: white;
+    color: #fff;
     animation: menu-shake 0.4s ease-in-out infinite;
 }
 
@@ -396,7 +394,7 @@ tbody tr:hover {
 }
 
 .category-title {
-    color: white;
+    color: #fff;
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -406,14 +404,10 @@ tbody tr:hover {
     user-select: none;
 }
 
-.top-links {
-    gap: 0; 
-}
-
 del {
     text-decoration: none;
     position: relative;
-    color: #666;
+    color: #333;
     display: inline-block;
 }
 
