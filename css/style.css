@@ -403,8 +403,9 @@ tbody tr:hover {
     letter-spacing: 3px;
     font-weight: normal;
     border-bottom: 1px dotted #333;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
     user-select: none;
+    margin-bottom: 0;
 }
 
 del {
