@@ -53,6 +53,7 @@ main {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-height: 100svh;
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
