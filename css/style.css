@@ -576,9 +576,10 @@ ul li::marker {
     margin: 0 auto 0 auto;
     border-radius: 2px;
     letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
-.last-update-box .text-label {
+.text-label {
     font-weight: bold;
     margin-right: 10px;
 }
