@@ -501,31 +501,22 @@ a:focus-visible:not(.floating-btn),
 h2 {
     color: #ffc32b;
     font-size: 1.6rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-transform: uppercase;
+    scroll-margin-top: 38px;
 }
 
 h3 {
     color: #ffc32b;
     font-size: 1.2rem;
-    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .regular-container p {
     text-align: left;
     color: #bbb;
-    line-height: 1.4;
+    line-height: 1.6;
     margin-bottom: 20px;
-    text-indent: 40px;
-}
-
-.regular-container p:last-child {
-    margin-bottom: 0;
-}
-
-.regular-container h2 + p,
-.regular-container h3 + p {
-    text-indent: 0;
 }
 
 .regular-container h3::before {
@@ -556,11 +547,12 @@ li {
 
 ul:last-child,
 ol:last-child,
-li:last-child {
+li:last-child,
+p:last-child {
     margin-bottom: 0;
 }
 
-ul li::marker {
+li::marker {
     color: #ffc32b;
 }
 

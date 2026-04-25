@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#000000">
 
     <title>Dossier - Lupus Vult</title>
-    <meta name="description" content="Lorem ipsum dolor sit amet.">
+    <meta name="description" content="An overview of this website's purpose and design choices, plus a bit about who I am.">
 
     <link rel="stylesheet" href="../css/modern-normalize.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -25,39 +25,69 @@
 
             <div class="description-container">
                 <p class="page-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum in ante non tempor. Suspendisse ultrices ac velit at rutrum.
+                    An overview of this website's purpose and design choices, plus a bit about who I am.
                 </p>
             </div>
+
+            <nav class="table-of-contents">
+                <a href="#website" aria-label="Jump to Web Applications table">About this Website</a>
+                <span aria-hidden="true">×</span>
+                <a href="#me" aria-label="Jump to Android Applications table">About Me</a>
+            </nav>
         </header>
 
         <main class="regular-container">
             <section>
-                <h2>Main Section</h2>
+                <h2 id="website">About this Website</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum in ante non tempor. Suspendisse ultrices ac velit at rutrum. Sed euismod lobortis nisl sed convallis. Etiam interdum lacus enim, sit amet varius neque feugiat a.</p>
+                <p>It's been over ten years since I last wrote code for a website. If I remember correctly, we used XHTML and CSS 2.1, and phpBB was the gold standard for communities.</p>
 
-                <p>Mauris nec ultricies leo. Nullam quis mattis odio. Maecenas hendrerit neque eget nisl auctor, a pulvinar diam venenatis. Duis tempor cursus blandit. Donec.</p>
+                <p>After the rapid rise of WordPress, people started deploying it, slapping on a theme, and calling it a day. At the same time, social media platforms took over and killed private community culture. It felt like the internet lost its character, and I lost my interest.</p>
 
-                <h3>Subsection I</h3>
-                <p>Mauris nec ultricies leo. Nullam quis mattis odio. Maecenas hendrerit neque eget nisl auctor, a pulvinar diam venenatis. Duis tempor cursus blandit. Donec.</p>
+                <p>I came up with the idea for this website on April 16, 2026 while browsing featured Neocities websites. They reminded me how happy I used to be designing and maintaining websites and moderating communities when I was younger.</p>
 
-                <h3>Subsection II</h3>
-                <p>Mauris nec ultricies leo. Nullam quis mattis odio. Maecenas hendrerit neque eget nisl auctor, a pulvinar diam venenatis. Duis tempor cursus blandit. Donec.</p>
 
-                <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                </ul>
-                <h3>Subsection III</h3>
-                <p>Mauris nec ultricies leo. Nullam quis mattis odio. Maecenas hendrerit neque eget nisl auctor, a pulvinar diam venenatis. Duis tempor cursus blandit. Donec.</p>
+                <h3>Purpose</h3>
+                <p>This site is a personal archive of ideas and data, my own little cozy space. My non-confidential spreadsheets and notes are scattered everywhere, so this gives me a way to bring them all under one roof. I also maintain a page where I post what I'm currently up to, updated monthly, sometimes more often. It's not a blog, each update replaces the last one.</p>
+
+                <p>The internet has become too centralized, and that needs to change. Social media platforms censor speech, whether due to government pressure or advertiser interests. Personal websites, on the other hand, are ungovernable. I can write what I want, and if a provider takes it down, I can simply move it elsewhere without losing a single bit.</p>
+
+                <h3>Design Choices</h3>
+                <p>I've tried to keep everything ultra-minimalist while capturing the soul of Y2K-era personal websites. It's a static website, and the entire structure branches out from the main page.</p>
+
+                <p>Before building it, I set a few rules and stuck to them:</p>
 
                 <ol>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Must reflect me and my interests.</li>
+                    <li>Minimalism is the priority, but it should still be visually appealing.</li>
+                    <li>No web fonts.</li>
+                    <li>Keep CSS clean and optimized, no unused code.</li>
+                    <li>Pages must stay under 100 KB.</li>
+                    <li>Must be stateless, no cookies.</li>
+                    <li>Avoid JavaScript entirely.</li>
+                    <li>No analytics, even privacy-friendly ones.</li>
                 </ol>
+
+                <h3>Concept</h3>
+                <p>I'm into post-apocalyptic survival scenarios, so I used that as a theme. It mainly influences the menu names and categories, the actual content isn't related. Well, except for a few pages.</p>
+
+                <h3>End Goal</h3>
+                <p>I want to optimize the shit out of this website, make it as small and fast as possible without sacrificing anything, and run it until the end of time.</p>
             </section>
+
+            <section>
+                <h2 id="me">About Me</h2>
+                    <p>Hello,</p>
+
+                    <p>I use ZERO (in all caps) as my alias. It comes from the origin point of a coordinate system. As you can probably guess, I've gone through plenty of names, but this one is the fixed point.</p>
+
+                    <p>I always use different names for different things: opening issues under one, contributing translations under another, and switching identities from site to site. I've been doing this since I first started using the internet, without knowing it would be useful in the future.</p>
+
+                    <p>Lupus Vult is a Latin phrase and a personal motto of mine. It's derived from a Crusader battle cry and roughly means "the wolf wills it." I came up with it after digging into Roman and Turkic mythology.</p>
+
+                    <p>I'm the owner of Gigaslice Games and co-owner of Tribal Studio with my childhood friend, who is now my business partner. I design and document our projects, and create the visuals. I also sometimes write code for my personal projects.</p>
+            </section>
+
         </main>
 
         <footer class="site-footer">
@@ -69,6 +99,7 @@
 
     <nav class="floating-nav">
         <a href="/" class="floating-btn back-home" aria-label="Back to home"></a>
+        <a href="#" class="floating-btn back-top" aria-label="Back to top"></a>
     </nav>
 </body>
 </html>
