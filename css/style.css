@@ -57,6 +57,8 @@ main {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
+    mask: linear-gradient(0deg, #bbbb 50%, #ffff 50%) 0 0 / 256px 2px, linear-gradient(90deg, #eeee 50%, #ffff 50%) 0 0 / 3px 256px;
+    mask-composite: intersect;
 }
 
 .splash-container {
