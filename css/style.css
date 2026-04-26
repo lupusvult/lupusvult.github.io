@@ -33,7 +33,7 @@ html {
 
 body {
     background-color: #000;
-    color: #fff;
+    color: #eee;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -128,22 +128,10 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-}
-
-.table-of-contents a {
-    display: inline-block;
-    transition: color 0.2s;
-    color: #ffc32b;
     text-transform: uppercase;
 }
 
-.table-of-contents a:hover {
-    color: #fff;
-    animation: menu-shake 0.4s ease-in-out infinite;
-}
-
 .table-of-contents span {
-    color: #bbb;
     padding: 0 10px;
     user-select: none;
 }
@@ -197,9 +185,8 @@ th, td {
     th, td {
         font-size: 0.8rem;
     }
-
-    table {
-        min-width: 704px;
+    .floating-btn {
+        display: none;
     }
 }
 
@@ -209,15 +196,14 @@ td:first-child {
 
 th {
     background-color: #111;
+    color: #bbb;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .table-title {
-    padding: 8px;
     letter-spacing: 2px;
     font-size: 1.2rem;
-    text-transform: uppercase;
     color: #ffc32b;
     background-color: #000;
     scroll-margin-top: 38px;
@@ -230,23 +216,15 @@ tbody tr:hover {
 .software-table th:nth-child(2), 
 .software-table td:nth-child(2) {
     width: 15%;
-    min-width: 120px;
-    text-align: center;
 }
 
 .software-table th:nth-child(3), 
 .software-table td:nth-child(3) {
     width: 5%;
-    min-width: 40px;
-    text-align: center;
-}
-
-.software-table td:first-child {
-    width: auto;
 }
 
 .software-table td:first-child a {
-    color: #fff;
+    color: #eee;
 }
 
 .software-table td:first-child a:hover {
@@ -255,12 +233,10 @@ tbody tr:hover {
 
 .oss-yes {
     color: #2ecc71;
-    font-weight: bold;
 }
 
 .oss-no {
     color: #e74c3c;
-    font-weight: bold;
 }
 
 .site-footer {
@@ -275,7 +251,6 @@ tbody tr:hover {
 
 .footer-text {
     text-transform: uppercase;
-    color: #fff;
     font-size: 0.9rem;
 }
 
@@ -309,7 +284,7 @@ tbody tr:hover {
 }
 
 .back-home:hover {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M7 1L3 5l4 4z' fill='%23ffffff'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M7 1L3 5l4 4z' fill='%23eeeeee'/%3E%3C/svg%3E");
 }
 
 .back-top {
@@ -318,23 +293,16 @@ tbody tr:hover {
 }
 
 .back-top:hover {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M1 7l4-4 4 4z' fill='%23ffffff'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M1 7l4-4 4 4z' fill='%23eeeeee'/%3E%3C/svg%3E");
 }
 
 .floating-btn:hover {
     border-color: #ffc32b;
-    background-color: #000;
-    transform: translateY(-5px);
-}
-
-@media (max-width: 744px) {
-    .floating-btn {
-        display: none;
-    }
+    transform: translateY(-5px) !important;
 }
 
 .menu-overlay {
-    display: none; 
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -354,7 +322,8 @@ tbody tr:hover {
     justify-content: space-between;
     height: 100%;
     width: 100%;
-    padding-bottom: 40px;
+    padding: 40px 0;
+    font-size: 1.2rem;
 }
 
 .top-links {
@@ -377,19 +346,6 @@ tbody tr:hover {
     padding: 8px 40px;
 }
 
-.top-links a, 
-.bottom-links a {
-    color: #ffc32b;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-}
-
-.top-links a:hover, 
-.bottom-links a:hover {
-    color: #fff;
-    animation: menu-shake 0.4s ease-in-out infinite;
-}
-
 .menu-category {
     display: flex;
     flex-direction: column;
@@ -399,9 +355,8 @@ tbody tr:hover {
 }
 
 .category-title {
-    color: #fff;
+    color: #eee;
     font-size: 1.4rem;
-    text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: normal;
     border-bottom: 1px dotted #333;
@@ -419,7 +374,7 @@ del {
 del::before {
     content: "";
     position: absolute;
-    top: 46%; 
+    top: 46%;
     left: -1px;
     width: calc(100% + 2px);
     height: 2px;
@@ -427,29 +382,17 @@ del::before {
     transition: background 0.2s;
 }
 
-a:hover del::before {
-    background: #fff;
-}
-
 .hatch-btn {
     border: 1px solid #ffc32b;
     padding: 8px 0;
     width: 100%;
     text-align: center;
-    transition: all 0.2s ease;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .hatch-btn:hover {
     background-color: #ffc32b;
     color: #000 !important;
-    animation: menu-shake 0.4s ease-in-out infinite !important;
-}
-
-.vault-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
 }
 
 .monero-qr-link {
@@ -464,10 +407,12 @@ a:hover del::before {
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
+    animation: none !important;
 }
 
 .monero-address {
     font-size: 0.8rem;
+    color: #eee;
     word-break: break-all;
     text-align: center;
     max-width: 246px;
@@ -511,7 +456,7 @@ h2 {
 h2.lined {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     white-space: nowrap;
 }
 
@@ -528,24 +473,22 @@ h3 {
     margin-bottom: 10px;
 }
 
-.regular-container p {
-    text-align: left;
-    color: #bbb;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
 .regular-container h3::before {
     content: "//"; 
     color: #ffc32b;
     margin-right: 10px;
 }
 
+.regular-container p {
+    text-align: left;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
 ul, 
 ol {
     margin-left: 40px;
     margin-bottom: 20px;
-    color: #bbb;
 }
 
 ul {
@@ -561,10 +504,7 @@ li {
     padding-left: 10px;
 }
 
-ul:last-child,
-ol:last-child,
-li:last-child,
-p:last-child {
+:is(ul, ol, li, p):last-child {
     margin-bottom: 0;
 }
 
@@ -610,4 +550,19 @@ li::marker {
         flex-direction: column;
         gap: 20px;
     }
+}
+
+a {
+    color: #ffc32b;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    color: #eee;
+    animation: menu-shake 0.4s infinite;
+}
+
+a:hover del::before {
+    background: #eee;
 }
