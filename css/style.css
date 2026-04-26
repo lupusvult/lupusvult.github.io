@@ -508,6 +508,20 @@ h2 {
     scroll-margin-top: 38px;
 }
 
+h2.lined {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    white-space: nowrap;
+}
+
+h2.lined::after {
+    content: "";
+    flex: 1;
+    height: 4px;
+    background-color: #ffc32b;
+}
+
 h3 {
     color: #ffc32b;
     font-size: 1.2rem;
