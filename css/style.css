@@ -591,3 +591,23 @@ li::marker {
     font-weight: bold;
     margin-right: 10px;
 }
+
+.lists-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.list-column {
+    flex: 1;
+}
+
+@media (max-width: 700px) {
+    .lists-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
