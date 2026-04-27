@@ -602,5 +602,4 @@ a:hover del::before {
 mark {
     color: #fff;
     background-color: #000;
-    text-shadow: 0 0 4px #fff;
 }
