@@ -395,6 +395,27 @@ del::before {
     color: #000 !important;
 }
 
+.warning {
+    width: 246px;
+    border: 2px solid #ffc32b;
+    text-align: center;
+}
+
+.warning-title {
+    background: #ffc32b;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 2px 0;
+    letter-spacing: 1px;
+}
+
+.warning-text {
+    padding: 10px;
+    font-size: 0.9rem;
+    line-height: 1.2;
+}
+
 .monero-qr-link {
     display: block;
     width: 246px;
