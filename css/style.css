@@ -588,3 +588,7 @@ a:hover {
 a:hover del::before {
     background: #eee;
 }
+
+.highlight {
+    color: #fff;
+}
