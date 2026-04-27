@@ -381,7 +381,7 @@ del::before {
 }
 
 .hatch-btn {
-    border: 1px solid #ffc32b;
+    border: 2px solid #ffc32b;
     padding: 8px 0;
     width: 100%;
     text-align: center;
