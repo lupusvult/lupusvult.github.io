@@ -114,15 +114,25 @@ main {
 }
 
 .splash-logo {
+    position: relative;
     width: 160px;
     height: 160px;
-    background-image: url('../img/logo.png');
-    background-size: contain;
+    background-image: url('../img/avatar.webp');
     background-repeat: no-repeat;
     background-position: center;
-    text-indent: -9999px;
     overflow: hidden;
-    white-space: nowrap;
+    text-indent: -9999px;
+}
+
+.splash-logo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px #ffc32b;
 }
 
 .table-of-contents {
