@@ -593,3 +593,68 @@ mark {
     color: #fff;
     background-color: #000;
 }
+
+.comms-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+}
+
+.comms-row {
+    display: grid;
+    grid-template-columns: 20px 80px 1fr;
+    align-items: center;
+    gap: 16px;
+}
+
+.comms-icon {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.mistify-container {
+    display: flex;
+    white-space: nowrap;
+}
+
+.mistify-text {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.mistify-symbol::before {
+    content: "\0040";
+}
+
+.pgp-container {
+    width: 100%;
+    border: 2px solid #ffc32b;
+}
+
+.pgp-header {
+    background: #ffc32b;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 2px 0;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.pgp-content {
+    padding: 10px;
+    overflow-x: auto; 
+}
+
+.pgp-content pre {
+    white-space: pre; 
+}
+
+.pgp-content code {
+    font-size: 0.85rem;
+    line-height: 1.2;
+}
