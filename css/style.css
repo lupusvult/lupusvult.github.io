@@ -360,7 +360,6 @@ tbody tr:hover {
     border-bottom: 1px dotted #333;
     padding-bottom: 4px;
     user-select: none;
-    margin-bottom: 0;
 }
 
 del {
@@ -576,7 +575,6 @@ li::marker {
 
 a {
     color: #ffc32b;
-    text-decoration: none;
     display: inline-block;
 }
 
