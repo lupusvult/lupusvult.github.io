@@ -558,12 +558,12 @@ a {
 }
 
 a:hover {
-    color: #eee;
+    color: #fff;
     animation: menu-shake 0.4s infinite;
 }
 
 a:hover del::before {
-    background: #eee;
+    background: #fff;
 }
 
 mark {
