@@ -614,6 +614,10 @@ mark {
     margin-bottom: 20px;
 }
 
+.page-col {
+    flex: 1;
+}
+
 :is(ul, ol, li, p, .page-layout):last-child {
     margin-bottom: 0;
 }
