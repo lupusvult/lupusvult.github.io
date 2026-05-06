@@ -655,3 +655,52 @@ mark {
         font-size: 0.8rem;
     }
 }
+
+.check-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.check-label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    color: #eee;
+}
+
+.custom-check {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #333;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.custom-check::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #ffc32b;
+    transform: scale(0);
+    transition: transform 0.1s ease;
+}
+
+.custom-check:checked::before {
+    transform: scale(1);
+}
+
+.custom-check:checked + span {
+    color: #bbb;
+}
