@@ -142,10 +142,6 @@ main {
     overflow-x: auto;
 }
 
-.table-wrapper:not(:last-of-type) {
-    margin-bottom: 40px;
-}
-
 table {
     border-collapse: collapse;
     width: 100%;
@@ -647,12 +643,6 @@ mark {
         margin-right: 0;
         margin-bottom: 20px;
         display: block;
-    }
-}
-
-@media (width: 744px) {
-    th, td {
-        font-size: 0.8rem;
     }
 }
 
