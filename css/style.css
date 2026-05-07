@@ -177,6 +177,36 @@ tbody tr:hover {
     background-color: #111;
 }
 
+.fot-table th:nth-child(1), 
+.fot-table td:nth-child(1) {
+    width: 15%;
+}
+
+.fot-table th:nth-child(2), 
+.fot-table td:nth-child(2) {
+    width: 15%;
+}
+
+.fot-table th:nth-child(3), 
+.fot-table td:nth-child(3) {
+    width: 20%;
+}
+
+.fot-table th:nth-child(4), 
+.fot-table td:nth-child(4) {
+    width: 20%;
+}
+
+.fot-table th:nth-child(5), 
+.fot-table td:nth-child(5) {
+    width: 15%;
+}
+
+.fot-table th:nth-child(6), 
+.fot-table td:nth-child(6) {
+    width: 15%;
+}
+
 .watchlist-table th:nth-child(2), 
 .watchlist-table td:nth-child(2) {
     width: 15%;
