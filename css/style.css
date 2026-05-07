@@ -177,14 +177,24 @@ tbody tr:hover {
     background-color: #111;
 }
 
+.watchlist-table th:nth-child(2), 
+.watchlist-table td:nth-child(2) {
+    width: 15%;
+}
+
+.watchlist-table th:nth-child(3), 
+.watchlist-table td:nth-child(3) {
+    width: 15%;
+}
+
 .software-table th:nth-child(2), 
 .software-table td:nth-child(2) {
-    width: 15%;
+    width: 20%;
 }
 
 .software-table th:nth-child(3), 
 .software-table td:nth-child(3) {
-    width: 5%;
+    width: 10%;
 }
 
 .software-table td:first-child a {
