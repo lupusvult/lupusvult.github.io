@@ -6,7 +6,7 @@
     text-decoration: none;
     scrollbar-width: thin;
     scrollbar-color: #333 #000;
-    cursor: url('../img/cursor.png') 6 6, crosshair !important;
+    cursor: url('cursor.png') 6 6, crosshair !important;
 }
 
 ::selection {
@@ -93,7 +93,7 @@ main {
 .splash-logo {
     width: 160px;
     height: 160px;
-    background-image: url('../img/avatar.webp');
+    background-image: url('avatar.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -393,7 +393,7 @@ del::before {
     display: block;
     width: 246px;
     height: 246px;
-    background-image: url("../img/monero.svg");
+    background-image: url("monero.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
