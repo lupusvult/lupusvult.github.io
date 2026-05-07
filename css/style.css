@@ -39,7 +39,6 @@ main {
 .container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     min-height: 100svh;
     max-width: 768px;
     margin: 0 auto;
@@ -435,8 +434,6 @@ a:focus-visible:not(.floating-btn),
     flex-direction: column;
     align-items: stretch;
     gap: 40px;
-    width: 100%;
-    margin: 0 auto;
 }
 
 h2 {
@@ -619,17 +616,15 @@ mark {
     padding: 10px;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+section {
+    display: flow-root; 
 }
 
 .sticky-panel-right {
     float: right;
     width: 40%;
     margin-left: 20px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .page-layout {
@@ -673,7 +668,6 @@ mark {
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 20px;
-        display: block;
     }
 }
 
