@@ -41,7 +41,7 @@ main {
     flex-direction: column;
     min-height: 100vh;
     min-height: 100svh;
-    max-width: 1000px;
+    max-width: 768px;
     margin: 0 auto;
     padding: 20px;
     mask: linear-gradient(0deg, #bbbb 50%, #ffff 50%) 0 0 / 256px 2px, linear-gradient(90deg, #eeee 50%, #ffff 50%) 0 0 / 3px 256px;
@@ -403,7 +403,6 @@ a:focus-visible:not(.floating-btn),
     flex-direction: column;
     align-items: stretch;
     gap: 40px;
-    max-width: 700px;
     width: 100%;
     margin: 0 auto;
 }
@@ -628,7 +627,7 @@ mark {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .page-layout {
         flex-direction: column;
         gap: 20px;
