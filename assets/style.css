@@ -741,17 +741,30 @@ section {
     display: block;
 }
 
-.img-wrapper .last-update-box {
+.info-box {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
-    opacity: 0;
-    visibility: hidden;
+    background-color: #ffc32b;
+    color: #000;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    border-radius: 4px;
     z-index: 5;
     pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
 }
 
-.img-wrapper:hover .last-update-box {
+.location-box {
+    top: 10px;
+    left: 10px;
+}
+
+.date-box {
+    bottom: 10px;
+    right: 10px;
+}
+
+.img-wrapper:hover .info-box {
     opacity: 1;
     visibility: visible;
 }
