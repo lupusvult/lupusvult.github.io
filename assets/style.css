@@ -739,6 +739,8 @@ section {
     height: 100%;
     object-fit: cover;
     display: block;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
 }
 
 .info-box {
