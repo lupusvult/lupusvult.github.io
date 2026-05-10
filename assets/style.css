@@ -493,6 +493,7 @@ ol {
 li {
     margin-bottom: 10px;
     padding-left: 10px;
+    line-height: 1.6;
 }
 
 li::marker {
