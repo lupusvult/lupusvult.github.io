@@ -458,7 +458,7 @@ h2.lined::after {
     background-color: #ffc32b;
 }
 
-h3 {
+h3, h4 {
     color: #ffc32b;
     font-size: 1.2rem;
     margin-bottom: 10px;
@@ -468,6 +468,19 @@ h3 {
     content: "//"; 
     color: #ffc32b;
     margin-right: 10px;
+}
+
+.regular-container h4::before {
+    content: "↑"; 
+    color: #ffc32b;
+    margin-right: 10px;
+}
+
+.sub-item {
+    margin-left: 10px;
+    font-weight: bold;
+    display: inline-block;
+    color: #ffaa00 !important;
 }
 
 .regular-container p {
