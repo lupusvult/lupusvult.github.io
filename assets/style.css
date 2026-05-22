@@ -685,6 +685,12 @@ section {
     }
 }
 
+@media (max-width: 1000px) {
+    .floating-btn {
+        display: none;
+    }
+}
+
 .check-group {
     display: flex;
     flex-direction: column;
