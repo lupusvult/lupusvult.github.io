@@ -629,13 +629,6 @@ section {
     display: flow-root; 
 }
 
-.sticky-panel-right {
-    float: right;
-    width: 40%;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
 .page-layout {
     display: flex;
     flex-direction: row;
@@ -670,13 +663,6 @@ section {
     }
     .floating-btn {
         display: none;
-    }
-    .sticky-panel-right {
-        float: none;
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 20px;
     }
 }
 
