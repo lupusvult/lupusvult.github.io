@@ -200,21 +200,16 @@ tbody tr:hover {
 
 .watchlist-table th:nth-child(2), 
 .watchlist-table td:nth-child(2) {
-    width: 15%;
+    width: 10%;
 }
 
 .watchlist-table th:nth-child(3), 
 .watchlist-table td:nth-child(3) {
-    width: 15%;
+    width: 10%;
 }
 
 .software-table th:nth-child(2), 
 .software-table td:nth-child(2) {
-    width: 20%;
-}
-
-.software-table th:nth-child(3), 
-.software-table td:nth-child(3) {
     width: 10%;
 }
 
