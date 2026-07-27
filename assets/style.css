@@ -508,26 +508,6 @@ li::marker {
     color: #ffc32b;
 }
 
-.last-update-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffc32b;
-    color: #000;
-    font-size: 0.8rem;
-    padding: 2px 8px;
-    width: fit-content;
-    margin: 0 auto 0 auto;
-    border-radius: 2px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-}
-
-.text-label {
-    font-weight: bold;
-    margin-right: 10px;
-}
-
 a {
     color: #ffc32b;
     display: inline-block;
@@ -770,4 +750,24 @@ section {
 .img-wrapper:hover .info-box {
     opacity: 1;
     visibility: visible;
+}
+
+.dispatch:not(:first-of-type) {
+  margin-top: 10px;
+}
+
+.dispatch-header {
+  margin-bottom: 10px;
+}
+
+.dispatch-date {
+  display: inline-block;
+  background-color: #ffc32b;
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
