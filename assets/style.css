@@ -486,7 +486,7 @@ h3, h4 {
 
 ul, 
 ol {
-    margin-left: 40px;
+    margin-left: 32px;
     margin-bottom: 20px;
 }
 
@@ -500,7 +500,7 @@ ol {
 
 li {
     margin-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 8px;
     line-height: 1.6;
 }
 
