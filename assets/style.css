@@ -771,27 +771,3 @@ section {
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
-
-.classified-tag {
-  color: #ffc32b;
-  background-color: #111;
-  border: 1px dashed #333;
-  font-size: 0.8em;
-  padding: 1px 6px;
-  letter-spacing: 1px;
-}
-
-.button-stack {
-    flex-direction: column;
-    gap: 20px;
-}
-
-.split-btn-group {
-    display: flex;
-    width: 100%;
-    gap: 20px;
-}
-
-.split-btn-group .hatch-btn {
-    flex: 1;
-}
