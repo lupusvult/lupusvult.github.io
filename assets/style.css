@@ -789,3 +789,18 @@ section {
 .dispatch:hover .dispatch-category {
     visibility: visible;
 }
+
+.button-stack {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.split-btn-group {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.split-btn-group .hatch-btn {
+    flex: 1;
+}
