@@ -290,7 +290,7 @@ tbody tr:hover {
     transform: translateY(-5px) !important;
 }
 
-.menu-overlay {
+.access-hatch {
     display: none;
     position: fixed;
     top: 0;
@@ -301,11 +301,11 @@ tbody tr:hover {
     z-index: 9999;
 }
 
-.menu-overlay:target {
+.access-hatch:target {
     display: flex;
 }
 
-.overlay-content {
+.hatch-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
