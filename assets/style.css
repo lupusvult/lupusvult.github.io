@@ -353,22 +353,6 @@ tbody tr:hover {
     user-select: none;
 }
 
-del {
-    position: relative;
-    color: #333;
-    display: inline-block;
-}
-
-del::before {
-    content: "";
-    position: absolute;
-    top: 46%;
-    left: -1px;
-    width: calc(100% + 2px);
-    height: 2px;
-    background: #ffc32b;
-}
-
 .hatch-btn {
     border: 2px solid #ffc32b;
     padding: 8px 0;
@@ -513,10 +497,6 @@ a {
 a:hover {
     color: #fff;
     animation: menu-shake 0.4s infinite;
-}
-
-a:hover del::before {
-    background: #fff;
 }
 
 mark {
